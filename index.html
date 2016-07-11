@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8" />
+        <title>Tenis Slider</title>
+        <link type="text/css" rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="slider.js"></script>
+    </head>
+    <body onload="inicializa_elementos()">
+        <div id="contenedor">
+            <div id="seccion_principal">
+                <ul id="menu">
+                    <li><img id="mini1" onclick="posiciona_lupa(1)" src="./img/slide-13.png"/></li>
+                    <li><img id="mini2" onclick="posiciona_lupa(2)" src="./img/slide-10.png"/></li>
+                    <li><img id="mini3" onclick="posiciona_lupa(3)" src="./img/slide-12.png"/></li>
+                    <li><img id="mini4" onclick="posiciona_lupa(4)" src="./img/slide-11.png"/></li>
+                </ul>
+                <img id="lupa" src="./img/slide-09.png"/>
+                <div class="div_fondo" id="slider">
+                    <div id="ventana">
+                        <div id="slides">
+                            <img id="img1" src="./img/slide-08.png"/>
+                            <img id="img2" src="./img/slide-06.png"/>
+                            <img id="img3" src="./img/slide-07.png"/>
+                            <img id="img4" src="./img/slide-05.png"/>
+                        </div>
+                    </div>
+                    <div onclick="atras()"class="flecha" id="flecha_izq"></div>
+                    <div onclick="adelante()" class="flecha" id="flecha_der"></div>
+                </div>
+                <div class="div_fondo" id="info">
+                    <div id="texto">
+                        <div id="producto"></div>
+                        <div id="precio"></div>
+                        <div id="descripcion"></div>
+                        <div id="boton">COMPRAR</div>
+                    </div>
+                </div>
+                <div id="listin"></div>
+            </div>
+            <div id="barra_marcas">
+                <div onclick="atras_marca()" class="flecha2" id="flecha_izq2"></div>
+                <div id="marcas">
+                    <img id="supra" src="./img/slide-14.png"/>
+                    <img id="adidas" src="./img/slide-15.png"/>
+                    <img id="nike" src="./img/slide-16.png"/>
+                </div>
+                <div onclick="adelante_marca()" class="flecha2" id="flecha_der2"></div>
+            </div>
+        </div>
+    </body>
+</html>

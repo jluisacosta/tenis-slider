@@ -1,0 +1,230 @@
+body{
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+
+#contenedor{
+	width:902px;
+	height:501px;
+	background-color: #1c1c1c;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	margin-left:-451px;
+  	margin-top:-250px;
+}
+
+#seccion_principal{
+	position: absolute;
+	width:865px;
+	height:390px;
+	background-color: #313132;
+	margin-top:18px;
+	left: 50%;
+	margin-left:-432px
+}
+
+#menu{
+	position: absolute;
+	list-style: none;
+	left: -27px;
+}
+
+#menu li{
+	margin-bottom: 14px;
+}
+
+#lupa{
+	position: absolute;
+	opacity: .9;
+	z-index: 1;
+	left: 14px;
+	top:16px;
+}
+
+.div_fondo{
+	position: absolute;
+	background-color: #59595a;
+	border-radius: 15px;
+	top: 16px;
+	height: 320px;
+}
+
+#slider{
+	width: 455px;
+	left: 120px;
+}
+
+#ventana{
+	position: absolute;
+	width: 405px;
+	height: 276px;
+	left: 25px;
+	top:22px;
+	overflow: hidden;
+}
+
+#slides{
+	position: absolute;
+	width: 1632px;
+	height: 276px;
+}
+
+.flecha{
+	position: absolute;
+	width: 45px;
+	height: 50px;
+	background-color: #d7d7d8;
+	opacity: .5;
+	top:135px;
+	background-position: right;
+}
+
+.flecha:hover{
+	opacity: 1;
+}
+
+#flecha_izq{
+	background-image: url('./img/hover.png');
+}
+
+#flecha_der{
+	left: 410px;
+	background-image: url('./img/hover1.png');
+}
+
+#info{
+	width: 260px;
+	left: 590px;
+}
+
+#texto{
+	position: absolute;
+	width: 210px;
+	height: 265px;
+	background-color: #d7d7d8;
+	left: 15px;
+	top: 17px;
+	padding: 10px;
+}
+
+#texto div{
+	position: absolute;
+	font-family:Trebuchet MS;
+}
+
+#producto{
+	font-size: 15px;
+	opacity: 0.0;
+}
+
+#producto span{
+	font-weight: bold;
+}
+
+#precio{
+	width: 210px;
+	font-size: 28px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	top:50px;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 7px;
+	font-weight: bold;
+	opacity: 0.0;
+}
+
+#precio sup{
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+#descripcion{
+	width:210px;
+	top:110px;
+	font-size: 11px;
+	text-align: justify;
+	opacity: 0.0;
+}
+
+#descripcion span{
+	font-style: italic;
+}
+
+#boton{
+	width: 95px;
+	height: 25px;
+	background-color: #d8dd0e;
+	font: 12px Trebuchet MS;
+	font-weight: bold;
+	text-align: center;
+	line-height: 27px;
+	border-radius: 7px;
+	margin-top: 240px;
+	left: 50%;
+  	margin-left:-47px;
+}
+
+#boton:hover{
+	background-color: #a8a80b;
+}
+
+#listin{
+	position: absolute;
+	width: 840px;
+	height: 30px;
+	left: 12px;
+	top: 348px;
+	background-color: white;
+}
+
+#barra_marcas{
+	position: absolute;
+	top:416px;
+	width:100%;
+	height:85px;
+	background-color: #030303;
+}
+
+#marcas{
+	margin: 0px auto;
+	padding-top: 10px;
+	width: 444px;
+}
+
+#marcas img{
+	opacity: .5;
+}
+
+#adidas{
+	margin-left:70px;
+	margin-right:70px;
+}
+
+.flecha2{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid #313132;
+	top:20px;
+	opacity: 1;
+}
+
+.flecha2:hover{
+	border-color: white;
+}
+
+#flecha_izq2{
+	background-image: url('./img/slide-17.png');
+	background-position: right;
+	left:72px;
+}
+
+#flecha_der2{
+	background-image: url('./img/slide-18.png');
+	background-position: left;
+	left: 785px;
+}
